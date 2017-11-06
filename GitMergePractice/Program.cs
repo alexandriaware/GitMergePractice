@@ -18,8 +18,11 @@ namespace GitMergePractice
 
             for (int i=10; i>0; i--)
             {
-                Console.WriteLine("Countdown: " + i);
+                Console.WriteLine("Countdown to self destruct: " + i);
+                System.Threading.Thread.Sleep(1000);
             }
+           
+            Console.WriteLine("KABOOM");
 
         }
     }
