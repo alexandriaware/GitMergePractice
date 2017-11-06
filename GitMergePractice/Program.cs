@@ -23,6 +23,10 @@ namespace GitMergePractice
             }
            
             Console.WriteLine("KABOOM");
+            System.Threading.Thread.Sleep(3000);
+
+            Console.WriteLine("Just kidding I'm not dead.");
+
 
         }
     }
