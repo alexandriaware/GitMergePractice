@@ -12,8 +12,15 @@ namespace GitMergePractice
         {
             for (int i=0; i<10; i++)
             {
-                Console.WriteLine("Katie is the boss times " + i);
+                Console.WriteLine("Kaitie is the boss times " + i);
+                Console.WriteLine("So's Ali!" + i);
             }
+
+            for (int i=10; i>0; i--)
+            {
+                Console.WriteLine("Countdown: " + i);
+            }
+
         }
     }
 }
